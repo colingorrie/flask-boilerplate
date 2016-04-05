@@ -1,0 +1,15 @@
+# editor
+*.sublime-project
+*.sublime-workspace
+
+# virtualenv
+env
+
+# python
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+
+# flask
+instance/
