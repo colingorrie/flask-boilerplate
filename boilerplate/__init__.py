@@ -7,7 +7,7 @@ from .views.blueprint import blueprint
 environments = {
     "development": "config.DevelopmentConfig",
     "testing": "config.TestingConfig",
-    "production": "config.Config",
+    "production": "config.ProductionConfig",
 }
 
 
