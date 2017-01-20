@@ -7,9 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Package name</title>
+    <title>{% block title %}{% endblock %}</title>
 
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> -->
 
     <!-- Custom CSS -->
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
@@ -23,6 +27,9 @@
   </head>
   <body>
     {% block content %}
+    {% endblock %}
+
+    {% block scripts %}
     {% endblock %}
   </body>
 

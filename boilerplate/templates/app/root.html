@@ -1,4 +1,12 @@
 {% extends "layout.html" %}
+
+{% block title %}Project Name{% endblock %}
+
 {% block content %}
-<h1>Hello world!</h1>
+  <div id="app">
+  </div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 {% endblock %}

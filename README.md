@@ -21,4 +21,6 @@ To run tests: `python -m manage test`
 
 ## Frontend
 
-This is designed to work alongside [vuejs-boilerplate](https://github.com/colingorrie/vuejs-boilerplate).
+This is designed to work alongside [vuejs-boilerplate](https://github.com/colingorrie/vuejs-boilerplate). The file output by your frontend build system should be `/boilerplate/static/js/app.js`.
+
+API endpoints are available under `/api/v1.0/`.
