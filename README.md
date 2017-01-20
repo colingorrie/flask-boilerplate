@@ -1,6 +1,6 @@
 # Flask Boilerplate
 
-This is boilerplate so you can get started quickly on a basic Flask app running Python 3.4.3.
+This is boilerplate so you can get started quickly on a basic Flask app running Python 3.5.
 
 ## Setup
 
