@@ -1,6 +1,7 @@
 from flask import Flask
 from werkzeug.contrib.fixers import ProxyFix
 from .models import db
+from .views.api import api_blueprint
 from .views.app import app_blueprint
 
 
@@ -32,6 +33,7 @@ def create_app(config=None, instance_relative_config=True):
 
     db.init_app(app)
 
+    app.register_blueprint(api_blueprint)
     app.register_blueprint(app_blueprint)
 
     return app
