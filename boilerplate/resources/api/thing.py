@@ -3,7 +3,7 @@ from flask.ext.restful.reqparse import RequestParser
 from boilerplate.util import autoreconnect
 
 
-class Something(ProtectedResource):
+class ThingList(ProtectedResource):
     def __init__(self):
         super().__init__()
 
