@@ -1,7 +1,6 @@
 # Flask Boilerplate
 
-This is boilerplate so you can get started quickly on a basic Flask app running Python 3.5. I have included testing (via `flask-testing`), and MongoDB support (via `flask-mongoengine`).
-
+This is boilerplate so you can get started quickly on a decoupled app with Flask serving a RESTful API on Python 3.5. I have included testing (via `flask-testing`), authentication (via `flask-security`) and MongoDB support (via `flask-mongoengine`).
 
 ## Setup
 
@@ -19,8 +18,6 @@ To run in development mode: `python -m manage runserver`
 To run in production mode: `python -m manage -c production runserver`
 
 To run tests: `python -m manage test`
-
-I have included basic MongoDB support (via `flask-mongoengine`).
 
 ## Frontend
 

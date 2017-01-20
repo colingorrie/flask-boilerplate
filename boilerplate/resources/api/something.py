@@ -1,9 +1,9 @@
-from flask.ext.restful import Resource
+from . import ProtectedResource
 from flask.ext.restful.reqparse import RequestParser
 from boilerplate.util import autoreconnect
 
 
-class Something(Resource):
+class Something(ProtectedResource):
     def __init__(self):
         super().__init__()
 
