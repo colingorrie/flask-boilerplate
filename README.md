@@ -6,7 +6,7 @@ This is boilerplate so you can get started quickly on a decoupled app with Flask
 
 1. Create and activate a virtualenv: `pyvenv env`, `source env/bin/activate`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Below the project root, create a directory `instance` containing a file `config.py`. This can be used for storing sensitive information, such as passwords. It should have at minimum `MONGODB_USERNAME`, `MONGODB_PASSWORD`, and `SECRET_KEY` [(see here)](http://flask.pocoo.org/docs/0.12/quickstart/#sessions) defined. Do not version control this directory.
+3. Below the project root, create a directory `instance` containing a file `config.py`. This can be used for storing sensitive information, such as passwords. It should have at minimum `MONGODB_USERNAME`, `MONGODB_PASSWORD`,  `SECRET_KEY` [(see here)](http://flask.pocoo.org/docs/0.12/quickstart/#sessions), and `SECURITY_PASSWORD_SALT` [(see here)](https://pythonhosted.org/Flask-Security/configuration.html) defined. Do not version control this directory.
 4. Edit `/config.py` (below the project root) as your project requires. Separate configurations for development, testing, and production are included.
 
 ## Usage

@@ -1,6 +1,11 @@
 class Config(object):
     DEBUG = False
     TESTING = False
+    SECURITY_LOGIN_URL = "/api/v1.0/login"
+    SECURITY_LOGOUT_URL = "/api/v1.0/logout"
+    SECURITY_PASSWORD_HASH = 'pbkdf2_sha512'
+    SECURITY_TRACKABLE = False
+    WTF_CSRF_ENABLED = False
 
 
 class ProductionConfig(Config):
