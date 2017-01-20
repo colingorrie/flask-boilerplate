@@ -1,6 +1,7 @@
 # Flask Boilerplate
 
-This is boilerplate so you can get started quickly on a basic Flask app running Python 3.5.
+This is boilerplate so you can get started quickly on a basic Flask app running Python 3.5. I have included testing (via `flask-testing`), and MongoDB support (via `flask-mongoengine`).
+
 
 ## Setup
 
@@ -19,4 +20,8 @@ To run in production mode: `python -m manage -c production runserver`
 
 To run tests: `python -m manage test`
 
-I have included basic MongoDB support (via `flask-mongoengine`), as well as Bootstrap and jQuery (via CDN) on the frontend.
+I have included basic MongoDB support (via `flask-mongoengine`).
+
+## Frontend
+
+This is designed to work alongside [vuejs-boilerplate](https://github.com/colingorrie/vuejs-boilerplate).
