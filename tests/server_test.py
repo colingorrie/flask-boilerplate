@@ -7,4 +7,4 @@ class AppTemplateTest(BoilerplateTestCase):
     def test_root_template_used(self):
         self.client.get("/")
 
-        self.assert_template_used("blueprint/root.html")
+        self.assert_template_used("app/root.html")
